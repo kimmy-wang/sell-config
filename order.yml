@@ -9,3 +9,6 @@ spring:
     port: 5672
     username: admin
     password: admin
+  redis:
+    host: 192.168.205.10
+    port: 6379
