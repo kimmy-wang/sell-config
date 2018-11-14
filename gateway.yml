@@ -1,1 +1,9 @@
-
+zuul:
+  routes:
+    myProduct:
+      path: /myProduct/**
+      serviceId: product
+      sensitiveHeaders:
+#    product: /product/**
+  ignored-patterns:
+  - /**/product/listForOrder
