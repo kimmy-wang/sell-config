@@ -7,3 +7,8 @@ zuul:
 #    product: /product/**
   ignored-patterns:
   - /**/product/listForOrder
+management:
+  endpoints:
+    web:
+      exposure:
+        include: routes,filters
