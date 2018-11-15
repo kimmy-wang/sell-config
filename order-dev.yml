@@ -1,4 +1,7 @@
 env:
   dev
-girl: 
-  name: wyy
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
